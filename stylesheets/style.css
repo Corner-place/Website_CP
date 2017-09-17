@@ -1,0 +1,80 @@
+div.login {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+div.dash {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+div.error {
+    background: #ffdfdf none repeat scroll 0 0;
+    border: 1px solid #ffcaca;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+div.success {
+    border-radius: 0px;
+    background-color: forestgreen;
+    border-left: 8px solid darkgreen;
+    padding: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    cursor: default;
+}
+
+a.logout:link, a.logout:visited {
+    background-color: #ff3322;
+    color: white;
+    padding: 20px;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.logout:hover, a.logout:active {
+    background-color: #dd3322;
+}
+
+.wrapper-right {
+    text-align: right;
+}
+
+.wrapper-left {
+    text-align: right;
+}
+
+a.option:link, a.option:visited {
+    background-color: mediumblue;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 18%;
+    width: 10%;
+    vertical-align: middle;
+}
+
+a.option:hover, a.option:active {
+    background-color: darkblue;
+}
+
+#optioncontainer {
+    text-align: center;
+}
